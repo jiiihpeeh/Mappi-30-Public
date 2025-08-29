@@ -1,4 +1,4 @@
-A banking made for one specific entity to solve their problems. 
+A banking app made for one specific entity to solve their problems. 
 
 
 Solution:
