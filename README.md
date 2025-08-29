@@ -2,18 +2,9 @@
 
 ## About
 
-This is the official Wails React-TS template.
+This is a banking for a very specific purpose prvided as a solution.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+It is an Wails app where Go is used as backend with sqlite dataase. Frontend is React Typescript using Material UI and Zustand. 
+It is made to function as an offline app, altough it can be exteneded to work as online with little bit of wotk if needed. 
 
-## Live Development
-
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+Some  AES password keys have been changed (yes, env should have been used). Basically due to nature of it information is not critically private but just in case to give a good hindrance if someone wants to read a database while still considering comfort of end users.
