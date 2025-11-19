@@ -1,4 +1,4 @@
-README
+# README
 About
 
 This is a banking application designed for a specific purpose and provided as a solution.
