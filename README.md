@@ -1,10 +1,10 @@
-# README
+README
+About
 
-## About
+This is a banking application designed for a specific purpose and provided as a solution.
 
-This is a banking for a very specific purpose prvided as a solution.
+The app is built using Wails, with Go as the backend and an SQLite database. The frontend is developed with React TypeScript, utilizing Material UI for design and Zustand for state management.
 
-It is a Wails app where Go is used as backend with sqlite database. Frontend is React Typescript using Material UI and Zustand. 
-It is made to function as an offline app, altough it can be exteneded to work as online with little bit of work if needed. 
+It is primarily designed to function as an offline application, but it can be extended to support online functionality with minimal additional work, if required.
 
-Some  AES password keys have been changed (yes, env should have been used). Basically due to nature of it information is not critically private but just in case to give a good hindrance if someone wants to read a database while still considering comfort of the end users.
+Please note that some AES password keys have been modified (yes, environment variables should have been used). Although the information in the app is not highly sensitive, these changes are intended to provide an additional layer of security in case someone attempts to access the database, while still maintaining ease of use for the end user.
